@@ -15,14 +15,13 @@ function dismiss(){
 function initiateDismiss(){
 	el=event.target;
 	document.addEventListener('click',dismiss)
-	el.removeEventListener('mouseout',initiateDismiss);	
+	el.removeEventListener('mouseout',initiateDismiss);
 }
 function hideAll(){
 	var w = document.getElementsByClassName("contextmenu");
 	for(i=0;i<w.length;i++) {
 	w[i].style.display="none";
-};
-}
+};}
 function initiate(){
 	hideAll();
 	var w = document.getElementsByClassName("contextmenu");
@@ -38,5 +37,4 @@ function initiate(){
 	getAndShowMenu(x,y,z);
 	return false;
 	}, false);
-};
-}
+};}
