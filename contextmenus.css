@@ -1,0 +1,29 @@
+.contextmenu, .contextmenu ul{
+	list-style-type: none;
+	padding: 2px; margin: 0;
+	background: #fafafa;
+	border: 2px solid;
+	cursor: pointer;
+	width: 150px;	
+	position: absolute;
+}
+.contextmenu ul{
+	display: none;
+}
+.contextmenu li:hover > ul {display: block;}
+.contextmenu li{
+	border-bottom: 1px #eee solid;
+	padding: 5px;
+}
+.contextmenu li:last-child {
+	border-bottom: none;
+}
+.contextmenu li a {
+	text-decoration: none;
+}
+.contextmenu > a,.contextmenu >span,.contextmenu >p,.contextmenu >div{
+	margin: 0; padding: 5px; width:140px; display:block;
+}
+.contextmenu li:hover,.contextmenu a:hover,.contextmenu span:hover,.contextmenu p:hover{
+	background: #eee;
+}

@@ -1,0 +1,61 @@
+<html><head><link rel="stylesheet" href="contextmenus.css"/><script src="contextmenus.js"></script></head><body style="
+    margin: 0;
+"><h1 style="
+    background: #03A9F4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+">Contextmenu.js demo</h1><div id="1" style="
+    background: red;
+    color: white;
+    width: 30%;
+    height: 40%;
+    font-size: x-large;
+    float: left;
+    margin: 20px;
+    padding: 21px 0px 0px 31px;
+">Right-click me! I have a custom contextmenu defined.</div><div style="
+    width: 30%;
+    height: 40%;
+    font-size: x-large;
+    float: left;
+    margin: 20px;
+    padding: 21px 0px 0px 31px;
+"><a href="#">I'm a link like no other and in emptyspace with no context menu. Right click me.&nbsp;</a><p>Right-clicking on elements that have got context-menus defined for them simply shows the menu. <br>
+Menus collapse when:<br>
+<ul style="
+">
+  <li>You right-click on another element with a defined context-menu.</li><li>You left-click on any part of the page that's not part of the menu, or if you left-click on any of the options in a menu.</li>
+</ul>
+</p></div><div id="2" style="
+    background: orange;
+    color: white;
+    width: 30%;
+    height: 40%;
+    font-size: x-large;
+    float: left;
+    margin: 20px;
+    padding: 21px 0px 0px 31px;
+
+">Right-click me! I have a custom contextmenu defined as well.</div>
+<ul class="contextmenu" id="1menu">
+<li><a href="#">A link.</a></li>
+<li>An option.</li>
+<li>A submenu.
+<ul>
+<li>1</li>
+<li>2</li>
+<li>A sub^2 menu.
+<ul>
+<li>1</li>
+<li>2</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="contextmenu" id="2menu">
+<a>A choice.</a>
+<a>Another choice.</a>
+</div>
+</body></html>
